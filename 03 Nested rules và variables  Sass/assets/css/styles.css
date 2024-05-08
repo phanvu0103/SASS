@@ -1,0 +1,102 @@
+:root {
+  --text-color: #c51818;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+.card1 {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+.card1 .thumb1 {
+  width: 100%;
+}
+.card1 .title {
+  font-size: 22px;
+}
+.card1 strong {
+  color: red;
+}
+.card1 .desc {
+  font-size: 18px;
+}
+.card1 .btn-link {
+  color: #666;
+}
+
+.card2 {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+.card2-thumb {
+  width: 100%;
+}
+.card2-title {
+  font-size: 22px;
+}
+.card2 strong {
+  color: red;
+}
+.card2-desc {
+  font-size: 18px;
+}
+.card2-btn-link {
+  color: #666;
+}
+
+.card {
+  width: 300px;
+  padding: 20px;
+  border: 2px solid #bb1f1f;
+  border-radius: 8px;
+}
+.card:hover {
+  background: #f1f1f1;
+}
+.card:hover .card__title {
+  color: blue;
+}
+.card:hover .card__title::before {
+  color: orange;
+}
+.card--bottom {
+  margin-top: 100px;
+}
+.card__thumb {
+  width: 100%;
+}
+.card__title {
+  font-size: 25px;
+  font-family: monospace;
+  color: red;
+}
+.card__title strong {
+  color: red;
+}
+.card__title--large {
+  font-size: 32px;
+}
+.card__title::before {
+  content: "1. ";
+}
+.card__title:hover {
+  color: green;
+}
+.card__desc {
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+}
+.card__btn-link {
+  color: #b536b9;
+}
+
+/*# sourceMappingURL=styles.css.map */
